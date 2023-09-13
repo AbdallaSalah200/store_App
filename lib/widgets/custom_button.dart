@@ -15,7 +15,7 @@ String ? text ;
           borderRadius: BorderRadius.circular(8),
         ),
         width: double.infinity,
-        height: 50,
+        height: 56,
         child: Center(child: Text(text!,style: TextStyle(
           color: Colors.white
         ),)),
