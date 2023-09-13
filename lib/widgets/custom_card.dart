@@ -25,7 +25,7 @@ ProductModel product ;
                     blurRadius:10,
                   color: Colors.grey.withOpacity(.2),
                   spreadRadius: 0,
-                  offset: Offset(10, 10),
+                  offset: const  Offset(10, 10),
                    ),
               ]
             ),

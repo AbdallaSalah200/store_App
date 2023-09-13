@@ -16,7 +16,7 @@ String ? text ;
         ),
         width: double.infinity,
         height: 50,
-        child: Center(child: Text(text!,style: TextStyle(
+        child: Center(child: Text(text!,style:const  TextStyle(
           color: Colors.white
         ),)),
       ),

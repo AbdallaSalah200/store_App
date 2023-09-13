@@ -3,17 +3,17 @@ import 'package:http/http.dart'as http;
 import 'package:store_app/screens/home_page.dart';
 import 'package:store_app/screens/update_product.dart';
 void main() {
-  runApp(const stroeApp());
+  runApp(const StroeApp());
 }
-class stroeApp extends StatelessWidget {
-  const stroeApp({super.key});
+class StroeApp extends StatelessWidget {
+  const StroeApp({super.key});
 
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       routes:{
-        HomePage.id:(context) => HomePage(),
+        HomePage.id:(context) => const  HomePage(),
         UpdateProductPage.id:(context)=> UpdateProductPage(),
       } ,
       initialRoute: HomePage.id,
